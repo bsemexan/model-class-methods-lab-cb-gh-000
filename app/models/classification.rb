@@ -6,5 +6,6 @@ class Classification < ActiveRecord::Base
   end
 
   def longest
+    order('length DESC').first
   end
 end
