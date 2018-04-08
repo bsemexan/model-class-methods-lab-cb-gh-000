@@ -3,4 +3,7 @@ class Captain < ActiveRecord::Base
 
   def self.catamaran_operators
   end
+
+  def self.sailors
+  end
 end
