@@ -7,21 +7,21 @@ class Boat < ActiveRecord::Base
     limit(5)
   end
 
-  def dinghy
+  def self.dinghy
   end
 
-  def ship
+  def self.ship
   end
 
-  def last_three_alphabetically
+  def self.last_three_alphabetically
   end
 
-  def without_a_captain
+  def self.without_a_captain
   end
 
-  def sailboats
+  def self.sailboats
   end
 
-  def with_three_classification
+  def self.with_three_classification
   end
 end
