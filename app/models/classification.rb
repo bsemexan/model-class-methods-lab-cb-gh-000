@@ -5,7 +5,7 @@ class Classification < ActiveRecord::Base
   def self.my_all
   end
 
-  def longest
+  def self.longest
     order('length DESC').first
   end
 end
